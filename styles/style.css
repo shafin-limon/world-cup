@@ -91,7 +91,8 @@ main {
     border-radius: 10px;
     justify-content: space-around;
     align-items: center;
-    margin-right: 54px;
+    margin-right: 30px;
+    padding: 15px;
 }
 
 .navbar a {
@@ -107,8 +108,9 @@ main {
 }
 
 .transfer-news {
-    width: 312px;
-    height: 362px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 }
 
 .news-info a {
