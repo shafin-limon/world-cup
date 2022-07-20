@@ -189,6 +189,7 @@ footer {
         flex-direction: column;
         width: 334px;
         height: 472px;
+        margin-left: 10px;
     }
 
     .banner-text {
