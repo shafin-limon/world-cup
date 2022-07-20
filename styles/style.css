@@ -238,6 +238,7 @@ footer {
         width: 334px;
         height: 472px;
         margin: 0 auto;
+        border-radius: 10px;
     }
 
     .banner-text {
