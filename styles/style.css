@@ -180,6 +180,11 @@ footer {
  Mobile view  
  ---------------*/
 @media (max-width: 688px) {
+
+    .container {
+        width: 100%;
+    }
+
     .banner-area {
         flex-direction: column;
         width: 334px;
@@ -213,5 +218,52 @@ footer {
         margin-bottom: 20px;
         margin-left: 30px;
         font-size: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .content-area {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        background-color: #E8E8E8;
+        width: 210px;
+    }
+
+    .navbar a {
+        width: 210px;
+    }
+
+    .transfer-news {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 24px;
+        margin-top: 20px;
+    }
+
+    .news-time {
+        justify-content: left;
+        gap: 15px;
+    }
+
+    .footer {
+        max-width: 375px;
+    }
+
+    .footer hr {
+        width: 335px;
+    }
+
+    .footer-menu a {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
     }
 }
