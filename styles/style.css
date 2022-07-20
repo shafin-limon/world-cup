@@ -176,6 +176,15 @@ footer {
     font-weight: 500;
 }
 
+.socials {
+    font-size: 25px;
+}
+
+.socials a {
+    margin-right: 8px;
+    color: white;
+}
+
 /*--------------
  Mobile view  
  ---------------*/
